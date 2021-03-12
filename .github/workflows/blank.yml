@@ -18,4 +18,4 @@ jobs:
         FIRST_NAME: Leung
         MIDDLE_NAME: Sze
         LAST_NAME: Yuet
-      run: echo $MY_VAR $FIRST_NAME $MIDDLE_NAME $LASTNAME.
+      run: echo $MY_VAR $FIRST_NAME $MIDDLE_NAME $LAST_NAME.

@@ -1,0 +1,21 @@
+# This is a basic workflow to help you get started with Actions
+name: Greeting from Leung Sze Yuet
+
+# Controls when the action will run. 
+on:
+  # Triggers the workflow on push or pull request events but only for the master branch
+  push:
+    branches: [ main ]
+
+jobs:
+  my-job:
+    name: My Job
+    runs-on: ubuntu-latest
+    steps:
+    - name: Print a greeting
+      env:
+        MY_VAR: Hi there! My name is
+        FIRST_NAME: Leung
+        MIDDLE_NAME: Sze
+        LAST_NAME: Yuet
+      run: echo $MY_VAR $FIRST_NAME $MIDDLE_NAME $LASTNAME.
